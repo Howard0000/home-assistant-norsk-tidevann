@@ -1,0 +1,11 @@
+{
+    "title": "Norwegian Tide",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Configure Norwegian Tide",
+                "description": "Select location for tide data."
+            }
+        }
+    }
+}

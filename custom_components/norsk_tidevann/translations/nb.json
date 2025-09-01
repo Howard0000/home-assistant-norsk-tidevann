@@ -1,0 +1,11 @@
+{
+    "title": "Norsk Tidevann",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Konfigurer Norsk Tidevann",
+                "description": "Velg lokasjon for tidevannsdata."
+            }
+        }
+    }
+}
