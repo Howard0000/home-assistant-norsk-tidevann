@@ -81,8 +81,8 @@ series:
         .map(entry => [new Date(entry.datetime).getTime(), entry.observation]);
 ```
 
-📊 Se eksempelfil: `examples/type customapexcharts-card.txt`  
-📷 Se skjermbilde: `examples/ApexCharts.png`  
+📊 Se eksempelfil: `apexchart/type customapexcharts-card.txt`  
+📷 Se skjermbilde: `apexchart/ApexCharts.png`  
 
 ---
 
