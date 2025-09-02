@@ -93,6 +93,11 @@ series:
 
 ---
 
+## Anerkjennelser
+Prosjektet er skrevet og vedlikeholdt av @Howard0000. En KI-assistent har hjulpet til med å forenkle forklaringer, rydde i README-en og pusse på skript. Alle forslag er manuelt vurdert før de ble tatt inn, og all konfigurasjon og testing er gjort av meg.
+
+---
+
 ## Lisens
 
 Dette prosjektet er lisensiert under [MIT License](LICENSE).  
