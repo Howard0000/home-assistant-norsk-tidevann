@@ -1,5 +1,6 @@
 {
   "name": "Norsk Tidevann",
-  "render_readme": true,
-  "homeassistant": "2024.0.0"
+  "country": "NO",
+  "render_readme": true
 }
+
