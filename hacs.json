@@ -1,0 +1,6 @@
+{
+  "name": "Norsk Tidevann",
+  "render_readme": true,
+  "domains": ["norsk_tidevann"],
+  "homeassistant": "2024.0.0"
+}
