@@ -1,16 +1,17 @@
 {
   "domain": "norsk_tidevann",
   "name": "Norsk Tidevann",
-  "version": "1.0.0",
-  "documentation": "https://github.com/Howard0000/home-assistant-norsk-tidevann",
-  "issue_tracker": "https://github.com/Howard0000/home-assistant-norsk-tidevann/issues",
+  "after_dependencies": [],
   "codeowners": ["@Howard0000"],
   "config_flow": true,
-  "iot_class": "cloud_polling",
-  "requirements": [],
   "dependencies": [],
-  "after_dependencies": []
+  "documentation": "https://github.com/Howard0000/home-assistant-norsk-tidevann",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/Howard0000/home-assistant-norsk-tidevann/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }
+
 
 
 
