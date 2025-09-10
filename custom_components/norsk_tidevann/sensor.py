@@ -3,8 +3,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 import logging
-from datetime import datetime, timezone
-latest = max(values, key=lambda x: datetime.fromisoformat(x["time"]).astimezone(timezone.utc))
+from datetime import datetime, timezone, timedelta
 
 
 from .const import DOMAIN
