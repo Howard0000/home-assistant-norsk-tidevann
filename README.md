@@ -66,46 +66,6 @@ Integrasjonen vil nå opprette sensorene.
 
 Integrasjonen er laget for å spille godt sammen med [ApexCharts Card](https://github.com/RomRider/apexcharts-card). Sensorenes `data`-attributt inneholder alt du trenger for å tegne grafene.
 
-Her er et eksempel for Lovelace-dashboardet ditt:
-
-```yaml
-type: custom:apexcharts-card
-graph_span: 36h
-span:
-  offset: +24h
-now:
-  show: true
-  label: Nå
-header:
-  show: true
-  title: Tidevann
-  show_states: true
-series:
-  - entity: sensor.tidevann_prediksjon
-    name: Tabell
-    color: orange
-    show:
-      extremas: true
-      in_header: before_now
-    data_generator: |
-      return entity.attributes.data.map((entry) => {
-        return [new Date(entry.datetime).getTime(), entry.prediction];
-      });
-  - entity: sensor.tidevann_prognose
-    name: Prognose
-    color: blue
-    data_generator: |
-      return entity.attributes.data.map((entry) => {
-        return [new Date(entry.datetime).getTime(), entry.forecast];
-      });
-  - entity: sensor.tidevann_observasjon
-    name: Observasjon
-    color: red
-    data_generator: |
-      const now = new Date().getTime();
-      return entity.attributes.data
-        .filter(entry => new Date(entry.datetime).getTime() <= now)
-        .map(entry => [new Date(entry.datetime).getTime(), entry.observation]);
 
 ## Krav
 
