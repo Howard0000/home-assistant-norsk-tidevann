@@ -1,0 +1,37 @@
+{
+  "title": "Norsk Tidevann",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Konfigurer Norsk Tidevann",
+        "description": "Velg lokasjon for tidevannsdata.",
+        "data": {
+          "name": "Navn",
+          "latitude": "Breddegrad",
+          "longitude": "Lengdegrad"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Denne lokasjonen er allerede konfigurert."
+    },
+    "error": {
+      "invalid_coords": "Ugyldige koordinater. Kontroller bredde-/lengdegrad.",
+      "unknown": "Ukjent feil. Prøv igjen."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Innstillinger",
+        "description": "Juster oppdateringsintervall og visning.",
+        "data": {
+          "update_interval": "Oppdateringsintervall (minutter)",
+          "history_hours": "Historikkvindu (timer)",
+          "sample_interval_minutes": "Prøveintervall for grafer (minutter)"
+        }
+      }
+    }
+  }
+}
+

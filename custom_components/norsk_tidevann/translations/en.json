@@ -1,0 +1,37 @@
+{
+  "title": "Norwegian Tide",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Norwegian Tide",
+        "description": "Select location for tide data.",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    },
+    "error": {
+      "invalid_coords": "Invalid coordinates. Check latitude/longitude.",
+      "unknown": "Unknown error. Please try again."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Adjust update interval and display.",
+        "data": {
+          "update_interval": "Update interval (minutes)",
+          "history_hours": "History window (hours)",
+          "sample_interval_minutes": "Sampling interval for charts (minutes)"
+        }
+      }
+    }
+  }
+}
+
