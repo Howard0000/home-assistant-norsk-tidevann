@@ -1,6 +1,3 @@
-Endelig og komplett README.md
-code
-Markdown
 # Norsk Tidevann – Home Assistant integrasjon
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
@@ -115,7 +112,7 @@ Tilgang til internett for å hente data fra vannstand.kartverket.no.
 Anerkjennelser
 Prosjektet er skrevet og vedlikeholdt av @Howard0000. En KI-assistent har hjulpet til med å forenkle forklaringer, rydde i README-en og pusse på skript. Alle forslag er manuelt vurdert før de ble tatt inn, og all konfigurasjon og testing er gjort av meg.
 Merknad
-Dette er et uoffisielt community-prosjekt og er ikke utviklet, støttet eller vedlikeholdt av Kartverket. All bruk skjer på eget ansvar. For offisiel dokumentasjon, se Kartverkets API-dokumentasjon.
+Dette er et uoffisielt community-prosjekt og er ikke utviklet, støttet eller vedlikeholdt av Kartverket. All bruk skjer på eget ansvar. For offisiell dokumentasjon, se Kartverkets API-dokumentasjon.
 Kreditering
 Integrasjonen er en videreutvikling av tmjo/ha-norwegiantide.
 Endringer i denne versjonen inkluderer:
