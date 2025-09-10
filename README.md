@@ -82,7 +82,7 @@ series:
 ```
 
 📊 Se eksempelfil: `examples/apexcharts//type customapexcharts-card.txt`  
-📷 Se skjermbilde: `examples/apexcharts//ApexCharts.png`  
+📷 Se skjermbilde: `examples/apexcharts/ApexCharts.png`  
 
 ---
 
