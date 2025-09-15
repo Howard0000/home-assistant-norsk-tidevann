@@ -1,5 +1,5 @@
 {
   "name": "Norsk Tidevann",
   "render_readme": true,
-  "country": "NO"
+  "country": ["NO"]
 }
