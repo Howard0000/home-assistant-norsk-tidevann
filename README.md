@@ -30,13 +30,11 @@ Integrasjonen er basert på [tmjo/ha-norwegiantide](https://github.com/tmjo/ha-n
 
 ### HACS (Anbefalt metode)
 
-1.  Gå til HACS -> Integrasjoner i Home Assistant.
-2.  Klikk på de tre prikkene øverst til høyre og velg **Egendefinerte repositorier** (Custom repositories).
-3.  Lim inn URL-en til dette prosjektet: `https://github.com/Howard0000/home-assistant-norsk-tidevann`
-4.  Velg kategorien **Integrasjon**.
-5.  Klikk **Legg til**.
-6.  Finn "Norsk Tidevann" i listen og klikk **Installer**.
-7.  Start Home Assistant på nytt.
+1.  Åpne HACS → Integrations i Home Assistant.
+2.  Søk etter Norsk Tidevann.
+3.  Velg integrasjonen og klikk Install.
+4.  Start Home Assistant på nytt hvis du blir bedt om det.
+
 
 ### Manuell Installasjon
 
