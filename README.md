@@ -1,6 +1,6 @@
 # Norsk Tidevann – Home Assistant integrasjon
 
-![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)
+[![HACS](https://img.shields.io/badge/HACS-Default-green.svg)](https://hacs.xyz/) 
 
 Dette er en Home Assistant-integrasjon for å hente og vise tidevannsdata fra **Kartverket**.
 Integrasjonen gjør det enkelt å følge med på **observasjoner, prediksjoner og prognoser** av tidevannet for en valgt posisjon.
