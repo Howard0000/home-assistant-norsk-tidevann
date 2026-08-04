@@ -96,3 +96,12 @@ Endringer i denne versjonen inkluderer:
 ## Lisens
 
 Dette prosjektet er lisensiert under [MIT License](LICENSE).
+
+
+## Valgbar prediksjonsperiode
+
+Fra versjon 1.1.0 kan antall dager med tidevannsprediksjon endres etter installasjon:
+
+**Innstillinger → Enheter og tjenester → Norsk Tidevann → Konfigurer**
+
+Standardverdien er **1 dag**, og perioden kan settes fra **1 til 14 dager**. Vannstandsprognosen vises bare så langt Kartverket leverer prognosedata, mens den astronomiske tidevannsprediksjonen kan være tilgjengelig for hele den valgte perioden.
