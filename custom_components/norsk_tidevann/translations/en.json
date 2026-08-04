@@ -4,9 +4,9 @@
     "step": {
       "user": {
         "title": "Configure Norwegian Tide",
-        "description": "Select location for tide data.",
+        "description": "Select the location for tide data.",
         "data": {
-          "name": "Name",
+          "location_name": "Name",
           "latitude": "Latitude",
           "longitude": "Longitude"
         }
@@ -16,22 +16,22 @@
       "already_configured": "This location is already configured."
     },
     "error": {
-      "invalid_coords": "Invalid coordinates. Check latitude/longitude.",
+      "invalid_coords": "Invalid coordinates. Check latitude and longitude.",
       "unknown": "Unknown error. Please try again."
     }
   },
   "options": {
     "step": {
       "init": {
-        "title": "Options",
-        "description": "Adjust update interval and display.",
+        "title": "Norwegian Tide options",
+        "description": "Choose how many days of tide predictions the integration should retrieve. Changes are applied automatically.",
         "data": {
-          "update_interval": "Update interval (minutes)",
-          "history_hours": "History window (hours)",
-          "sample_interval_minutes": "Sampling interval for charts (minutes)"
+          "forecast_days": "Number of tide prediction days"
+        },
+        "data_description": {
+          "forecast_days": "Can be set from 1 to 14 days. Water-level forecasts are shown only as far ahead as Kartverket provides them."
         }
       }
     }
   }
 }
-

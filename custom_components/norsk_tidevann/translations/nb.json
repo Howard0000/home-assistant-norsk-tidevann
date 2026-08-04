@@ -6,7 +6,7 @@
         "title": "Konfigurer Norsk Tidevann",
         "description": "Velg lokasjon for tidevannsdata.",
         "data": {
-          "name": "Navn",
+          "location_name": "Navn",
           "latitude": "Breddegrad",
           "longitude": "Lengdegrad"
         }
@@ -23,15 +23,15 @@
   "options": {
     "step": {
       "init": {
-        "title": "Innstillinger",
-        "description": "Juster oppdateringsintervall og visning.",
+        "title": "Innstillinger for Norsk Tidevann",
+        "description": "Velg hvor mange døgn med tidevannsprediksjon integrasjonen skal hente. Endringen tas i bruk automatisk.",
         "data": {
-          "update_interval": "Oppdateringsintervall (minutter)",
-          "history_hours": "Historikkvindu (timer)",
-          "sample_interval_minutes": "Prøveintervall for grafer (minutter)"
+          "forecast_days": "Antall dager med tidevannsprediksjon"
+        },
+        "data_description": {
+          "forecast_days": "Kan settes fra 1 til 14 dager. Vannstandsprognosen vises bare så langt Kartverket leverer den."
         }
       }
     }
   }
 }
-

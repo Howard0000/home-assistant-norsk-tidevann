@@ -1,3 +1,7 @@
 DOMAIN = "norsk_tidevann"
 PLATFORMS = ["sensor"]
 
+CONF_FORECAST_DAYS = "forecast_days"
+DEFAULT_FORECAST_DAYS = 1
+MIN_FORECAST_DAYS = 1
+MAX_FORECAST_DAYS = 14
