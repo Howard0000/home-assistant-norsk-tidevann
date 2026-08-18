@@ -29,6 +29,11 @@ async def async_setup_entry(
 class TideWaterSensor(CoordinatorEntity, SensorEntity):
     """Sensor for tidevannsdata."""
 
+    # Tidsserien brukes av blant annet ApexCharts, men skal ikke lagres i
+    # Recorder-databasen. Prognoser over flere dager kan ellers overstige
+    # Home Assistants grense for størrelsen på lagrede state-attributter.
+    _unrecorded_attributes = frozenset({"data"})
+
     def __init__(self, coordinator, tide_type, name):
         super().__init__(coordinator)
         location_name = coordinator.config_entry.data.get("location_name", "Ukjent")
